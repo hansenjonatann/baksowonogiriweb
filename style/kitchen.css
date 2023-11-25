@@ -1,0 +1,53 @@
+/* Google Fonts CDN */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fab4fb;
+  min-height: 100vh;
+  padding: 20px 60px 20px 60px;
+  overflow: hidden;
+}
+
+.kitchen_section {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  margin: 10px 20px;
+
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  width: 1000px;
+}

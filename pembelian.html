@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style_detail.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hero">
+      <img src="./image/Frame 1.png" alt="" />
+    </div>
+
+    <div class="navbarnav">
+      <h3>Bakso Wonogiri</h3>
+      <h3>DAFTAR MENU</h3>
+    </div>
+
+    <!-- DAFTAR MENU MAKANAN -->
+    <div class="container">
+      <div class="daftarMenuMakanan">
+        <div class="box1">
+          <img src="./image/baksourat.png" alt="" />
+        </div>
+        <div class="box2">
+          <h5 id="">Bakso Urat</h5>
+          <h5 id="harga">
+            Rp <input type="number" readonly value="15000" id="price" />
+          </h5>
+          <button style="display: inline-block; cursor: pointer" class="tambah">
+            +
+          </button>
+          <button style="display: inline-block; cursor: pointer" id="kurang">
+            -
+          </button>
+          <p id="total" >1</p>
+        </div>
+
+        <div class="box1">
+          <img src="./image/baksourat.png" alt="" srcset="" />
+        </div>
+        <div class="box2">
+          <h5 id="menu">Bakso Urat</h5>
+          <h5 id="harga">Rp 15.000</h5>
+          <button style="display: inline-block; cursor: pointer" id="tambah">
+            +
+          </button>
+          <button style="display: inline-block; cursor: pointer" id="kurang">
+            -
+          </button>
+          <p id="total">1</p>
+        </div>
+
+        <h5 id="totalBayar">TOTAL PEMBAYARAN:Rp 15.000</h5>
+        <button class="btn"><a href="index.html">BATAL</a></button>
+        <button
+          style="
+            background-color: #51c933;
+            width: 100px;
+            height: 40px;
+            color: aliceblue;
+          "
+          id="btn"
+        >
+          BAYAR
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

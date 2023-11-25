@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero img {
+  background-image: url("./image/Frame\ 1.png");
+  width: 2000px;
+  margin: auto;
+}
+
+.navbarnav {
+  background-color: #aeaeae;
+}
+
+.navbarnav h3 {
+  color: white;
+  display: inline-block;
+  margin-right: 500px;
+  margin-left: 100px;
+  padding-right: 50px;
+}
+
+.container {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  margin: 10px 20px;
+
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+  border-bottom: none;
+  font-size: 1.4rem;
+  background-color: cyan;
+}
+
+.cta-btn {
+  background-color: blue;
+  color: white;
+  margin-top: 40px;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 27%;
+}

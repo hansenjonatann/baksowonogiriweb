@@ -1,0 +1,119 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.hero img {
+    background-image: url("./image/Frame\ 1.png");
+    width: 2000px;
+    margin: auto;
+}
+
+
+
+
+.navbarnav {
+    background-color: #aeaeae;
+    
+}
+
+.navbarnav h3 {
+   color: white;
+   display: inline-block;
+   margin-right: 500px;
+   margin-left: 100px; 
+   padding-right: 50px;
+}
+
+
+
+
+/* style untuk daftar menu */
+.box1 {
+    width: 200px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius:10px ;
+    margin-top: 30px;
+    box-shadow: 5px 10px 50px ;
+}
+
+.box1 img {
+   width: 200px;
+}
+
+
+.box1 h5 {
+    width: 200px;
+    padding-left: 20PX;
+ }
+
+ 
+ .btn {
+    background-color: #2152FF;
+    color: aliceblue;
+    border: none;
+    height: 30px;
+     margin-left: 40px; 
+    cursor: pointer;
+    margin-right: 5px;
+   
+   
+} 
+
+.btnHapus {
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    height: 30px;
+     margin-left: 5px; 
+    /* margin-bottom: 20;    */
+    cursor: pointer;
+    /* margin-top: 30px; */
+    margin-right: 5px;
+   
+} 
+.btn a {
+    text-decoration: none;
+    display: inline-block;
+    color: azure;
+
+}
+
+.btnHapus a {
+    text-decoration: none;
+    display: inline-block;
+    color: azure;
+
+}
+
+.box2 {
+    width: 200px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius:10px ;
+    box-shadow: 5px 10px 50px ;
+}
+
+.box2 h5 {
+    width: 200px;
+    padding-left: 20PX;
+ }
+
+.box2 img {
+    width: 200px;
+ }
+
+.container {
+
+  margin-left: 300px;
+  width: 1200px;
+  padding-bottom: 50px;
+}
+
+
+
+ 
